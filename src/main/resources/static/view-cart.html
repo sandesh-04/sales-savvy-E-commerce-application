@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SalesSavvy | Cart</title>
+<link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+
+<header class="customer-header">
+    <div class="customer-header-inner">
+        <a href="/customer-home.html" class="logo">S<span>alesSavvy</span></a>
+        <div class="customer-actions">
+            <button class="btn btn-secondary" onclick="goBackToShopping()">Continue Shopping</button>
+            <button class="btn btn-secondary" onclick="logout()">Logout</button>
+        </div>
+    </div>
+</header>
+
+<main class="section">
+    <div class="container">
+        <div class="section-header">
+            <div>
+                <div class="section-label">YOUR CART</div>
+                <h2>Shopping Cart</h2>
+                <p id="welcomeText"></p>
+            </div>
+        </div>
+
+        <div class="cart-layout">
+            <div id="cartList" class="cart-list">
+                <div class="loading">Loading cart...</div>
+            </div>
+
+            <aside class="cart-summary">
+                <h2>Order Summary</h2>
+                <div class="summary-row">
+                    <span>Items</span>
+                    <span id="cartItemCount">0</span>
+                </div>
+                <div class="summary-total">
+                    <span>Total</span>
+                    <span id="cartTotal">₹0.00</span>
+                </div>
+                <button id="checkoutBtn" class="btn btn-primary checkout-btn" onclick="checkout()">Proceed to Payment</button>
+            </aside>
+        </div>
+    </div>
+</main>
+
+<script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+<script src="/js/customer.js"></script>
+</body>
+</html>

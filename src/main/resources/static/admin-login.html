@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SalesSavvy | Admin Login</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+<div class="auth-page">
+    <div class="auth-card">
+        <div class="auth-logo">S<span>alesSavvy</span></div>
+        <h2>Admin Portal</h2>
+        <p class="form-subtitle">Authorized administrators only.</p>
+        <form id="adminLoginForm">
+            
+        <div class="form-group"><label for="username">Admin Username</label><input type="text" id="username" placeholder="Enter admin username" required></div>
+        <div class="form-group"><label for="password">Password</label><input type="password" id="password" placeholder="Enter admin password" required></div>
+    
+            <button type="submit" class="btn btn-primary">Admin Sign In</button>
+        </form>
+        <p id="message" class="form-message"></p>
+        <div class="auth-footer"><a href="/index.html">← Back to SalesSavvy</a></div>
+    </div>
+</div>
+<script src="/js/auth.js"></script>
+</body>
+</html>
