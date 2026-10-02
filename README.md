@@ -234,7 +234,6 @@ http://localhost:8080
 The REST APIs were tested using **Postman**, including authentication, product, cart, admin, and payment workflows.
 
 ## 👨‍💻 Author
-## 👨‍💻 Author
 
 **Sandesh Singh**
 
