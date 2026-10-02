@@ -237,7 +237,7 @@ The REST APIs were tested using **Postman**, including authentication, product, 
 
 **Sandesh Singh**
 
-GitHub: `[YOUR_GITHUB_PROFILE_URL](https://github.com/sandesh-04/sales-savvy-E-commerce-application)`
+GitHub: `(https://github.com/sandesh-04/sales-savvy-E-commerce-application)`
 
 ---
 
