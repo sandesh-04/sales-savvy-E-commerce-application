@@ -8,7 +8,7 @@
 
 A full-stack e-commerce application built with **Java Spring Boot** to provide secure product management, customer shopping, cart management, order processing, and online payment functionality.
 
-## 📋 Table of Contents
+## 📋 Table of Contents 
 
 - [Overview](#overview)
 - [Key Features](#key-features)
