@@ -234,10 +234,11 @@ http://localhost:8080
 The REST APIs were tested using **Postman**, including authentication, product, cart, admin, and payment workflows.
 
 ## 👨‍💻 Author
+## 👨‍💻 Author
 
 **Sandesh Singh**
 
-GitHub: `(https://github.com/sandesh-04/sales-savvy-E-commerce-application)`
+[![GitHub](https://img.shields.io/badge/GitHub-SalesSavvy-181717?logo=github&logoColor=white)](https://github.com/sandesh-04/sales-savvy-E-commerce-application)
 
 ---
 
